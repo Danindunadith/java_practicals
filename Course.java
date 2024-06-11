@@ -1,20 +1,20 @@
-package nov2023_04;
+package que012023;
 
-public abstract class Course {
+public class Course {
 	
-	 String code;
-	 String course_name;
-	
-	public Course() {
+	private String CourseId;
+	private String name;
+	private String instructor;
+	public Course(String courseId, String name, String instructor) {
 		super();
-	}
-
-	public Course(String code, String course_name) {
-		super();
-		this.code = code;
-		this.course_name = course_name;
+		CourseId = courseId;
+		this.name = name;
+		this.instructor = instructor;
 	}
 	
-	abstract void DisplayCourseDetails();
+	public void AddStudent() {
+		
+	}
+	
 
 }
